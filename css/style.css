@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 30px;
+}
+body{
+    background-color: white;
+
+}
+
+h1, h2, h3{
+    color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.chapter{
+    color: rgb(189, 70, 40);  
+}
+#begin{
+    color: rgb(60, 130, 40);
+}
+
+ol{
+    text-align: left;
+    font-style: italic;
+}
+#decoration{
+    text-decoration: line-through;
+}
+
+.box{
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    padding: 10px;
+    /* border-width: 3px; */
+    /* border-style: solid; */
+    border-color:3px solid darkblue;
+    margin: 40px;
+}
+.box2{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    background-color: aqua;
+    padding: 7px;
+    /* border-width: 3px; */
+    /* border-style: dashed; */
+    border-color: rgb(25, 43, 37);
+    z-index: 3;
+}
+.pink{
+    color: pink;
+}
+a{
+    padding: 60px;
+    margin: 60px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 500px; 
+}
+nav{
+    position: inherit;
+    left: 50px;
+    bottom:50px;
+}
+.red{
+    background-color: red;
+    width: 50vw;
+    height: 50vh;
+}
+.example{
+    position: relative;
+}
